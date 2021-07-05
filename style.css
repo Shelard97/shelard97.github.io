@@ -19,8 +19,8 @@
     position: fixed;
     left: 0px;
     top: 0px;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEJUPZb3bxWEIV-jDOJRJPDW2UH69DFvvkQ&usqp=CAU");
-    background-size: 200px 200px;
+    background-image: url("https://cdn4.vectorstock.com/i/thumb-large/87/73/white-and-gray-marble-texture-background-vector-21708773.jpg");
+    background-size: 50px 50px;
 }
 
 .grid-item2{
@@ -29,6 +29,7 @@
     padding: 10px;
     border-radius:15% 25%;
     background-image: url("https://cdn4.vectorstock.com/i/thumb-large/87/73/white-and-gray-marble-texture-background-vector-21708773.jpg");
+    background-position: center;
     left: 700px;
     top: 5px;
 }
@@ -51,4 +52,10 @@
     background-image: url("https://cdn4.vectorstock.com/i/thumb-large/87/73/white-and-gray-marble-texture-background-vector-21708773.jpg");
     left: 1300px;
     top: 5px;
+}
+
+.icon{
+    border-radius: 8px;
+    max-width: 40%;
+    height: auto;
 }
