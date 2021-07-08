@@ -24,38 +24,246 @@
 }
 
 .grid-item2{
+    color: white;
+    background-image: url("https://media.istockphoto.com/photos/royal-blue-wave-on-black-background-picture-id959766018?k=6&m=959766018&s=170667a&w=0&h=jmwfA4__NnM6lG_ffT0Ri4ZuOJ3ml2UqY4h78kUJxj4=");
+    text-decoration:none ;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
     grid-column: 2;
     position: fixed;
-    padding: 10px;
-    border-radius:15% 25%;
-    background-image: url("https://cdn4.vectorstock.com/i/thumb-large/87/73/white-and-gray-marble-texture-background-vector-21708773.jpg");
     background-position: center;
+    padding: 10px;
     left: 700px;
     top: 5px;
 }
 
 .grid-item3{
+    color: white;
+    background-image: url("https://media.istockphoto.com/photos/royal-blue-wave-on-black-background-picture-id959766018?k=6&m=959766018&s=170667a&w=0&h=jmwfA4__NnM6lG_ffT0Ri4ZuOJ3ml2UqY4h78kUJxj4=");
+    text-decoration:none ;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
     grid-column: 3;
     position: fixed;
     padding: 10px;
-    border-radius:15% 25%;
-    background-image: url("https://cdn4.vectorstock.com/i/thumb-large/87/73/white-and-gray-marble-texture-background-vector-21708773.jpg");
     left: 1000px;
     top: 5px;
 }
 
 .grid-item4{
+    color: white;
+    background-image: url("https://cutewallpaper.org/21/dark-blue-and-black-abstract-background/Dark-Blue-Abstract-Backgrounds-Stock-Footage-Video-100-Royalty-free-4401842-Shutterstock.jpg");
+    text-decoration:none ;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
     grid-column: 4;
     position: fixed;
     padding: 10px;
-    border-radius:15% 25%;
-    background-image: url("https://cdn4.vectorstock.com/i/thumb-large/87/73/white-and-gray-marble-texture-background-vector-21708773.jpg");
     left: 1300px;
     top: 5px;
 }
 
-.icon{
-    border-radius: 8px;
-    max-width: 40%;
-    height: auto;
+.grid-item2:hover{
+    background: #3399ff;
+    color: black;
+    box-shadow: 0 0 5px #3399ff,
+    0 0 25px #3399ff,
+    0 0 50px #3399ff,
+    0 0 200px #3399ff;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
 }
+
+.grid-item2 span{
+    position: absolute;
+    display: block;
+}
+
+.grid-item2 span:nth-child(1){
+    top: 0;
+    left:0;
+    width:100%;
+    height:5px;
+    background:linear-gradient(90deg,transparent,#3399ff);
+    animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1{
+    0%{
+        left:-100%;
+    }
+    50%, 100%{
+        left:100%;
+    }
+}
+
+.grid-item2 span:nth-child(2){
+    top: 0;
+    right:0;
+    width:5px;
+    height:100%;
+    background:linear-gradient(90deg,transparent,#3399ff);
+    animation: animate2 1s linear infinite;
+    animation-delay:0.25s;
+}
+
+@keyframes animate2{
+    0%{
+        top:-100%;
+    }
+    50%, 100%{
+        top:100%;
+    }
+}
+
+.grid-item2 span:nth-child(3){
+    bottom: 0;
+    right:0;
+    width:100%;
+    height:5px;
+    background:linear-gradient(90deg,transparent,#3399ff);
+    animation: animate3 1s linear infinite;
+    animation-delay:0.50s;
+}
+
+@keyframes animate3{
+    0%{
+        right:-100%;
+    }
+    50%, 100%{
+        right:100%;
+    }
+}
+
+.grid-item2 span:nth-child(4){
+    bottom: -100%;
+    left:0;
+    width:5px;
+    height:100%;
+    background:linear-gradient(90deg,transparent,#3399ff);
+    animation: animate4 1s linear infinite;
+    animation-delay:0.75s;
+}
+
+@keyframes animate4{
+    0%{
+        bottom:-100%;
+    }
+    50%, 100%{
+        bottom:100%;
+    }
+}
+
+.grid-item3:hover{
+    background: #3399ff;
+    color: black;
+    box-shadow: 0 0 5px #3399ff,
+    0 0 25px #3399ff,
+    0 0 50px #3399ff,
+    0 0 200px #3399ff;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+
+.grid-item3 span{
+    position: absolute;
+    display: block;
+}
+
+.grid-item3 span:nth-child(1){
+    top: 0;
+    left:0;
+    width:100%;
+    height:5px;
+    background:linear-gradient(90deg,transparent,#3399ff);
+    animation: animate1 1s linear infinite;
+}
+
+.grid-item3 span:nth-child(2){
+    top: 0;
+    right:0;
+    width:5px;
+    height:100%;
+    background:linear-gradient(90deg,transparent,#3399ff);
+    animation: animate2 1s linear infinite;
+    animation-delay:0.25s;
+}
+
+.grid-item3 span:nth-child(3){
+    bottom: 0;
+    right:0;
+    width:100%;
+    height:5px;
+    background:linear-gradient(90deg,transparent,#3399ff);
+    animation: animate3 1s linear infinite;
+    animation-delay:0.50s;
+}
+
+.grid-item3 span:nth-child(4){
+    bottom: -100%;
+    left:0;
+    width:5px;
+    height:100%;
+    background:linear-gradient(90deg,transparent,#3399ff);
+    animation: animate4 1s linear infinite;
+    animation-delay:0.75s;
+}
+
+.grid-item4:hover{
+    background: #3399ff;
+    color: black;
+    box-shadow: 0 0 5px #3399ff,
+    0 0 25px #3399ff,
+    0 0 50px #3399ff,
+    0 0 200px #3399ff;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+
+.grid-item4 span{
+    position: absolute;
+    display: block;
+}
+
+.grid-item4 span:nth-child(1){
+    top: 0;
+    left:0;
+    width:100%;
+    height:5px;
+    background:linear-gradient(90deg,transparent,#3399ff);
+    animation: animate1 1s linear infinite;
+}
+
+.grid-item4 span:nth-child(2){
+    top: 0;
+    right:0;
+    width:5px;
+    height:100%;
+    background:linear-gradient(90deg,transparent,#3399ff);
+    animation: animate2 1s linear infinite;
+    animation-delay:0.25s;
+}
+
+.grid-item4 span:nth-child(3){
+    bottom: 0;
+    right:0;
+    width:100%;
+    height:5px;
+    background:linear-gradient(90deg,transparent,#3399ff);
+    animation: animate3 1s linear infinite;
+    animation-delay:0.50s;
+}
+
+.grid-item4 span:nth-child(4){
+    bottom: -100%;
+    left:0;
+    width:5px;
+    height:100%;
+    background:linear-gradient(90deg,transparent,#3399ff);
+    animation: animate4 1s linear infinite;
+    animation-delay:0.75s;
+}
+
