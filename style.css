@@ -10,6 +10,24 @@
     top:0px;
     grid-gap: 100px;
 }
+.leftbar{
+    display: grid;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-image: url("https://www.togcoding.com/togcoding/backgrounds/1.gif");
+    top:97px;
+    left:0px;
+}
+.rightbar{
+    display: grid;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-image: url("https://www.togcoding.com/togcoding/backgrounds/1.gif");
+    top:97px;
+    right:0px;
+}
 
 .acm-logo{
     width: 200px;
