@@ -1,4 +1,6 @@
-
+.res-back{
+    background: black;
+}
 .navbar{
     display: grid;
     position: fixed;
@@ -21,6 +23,8 @@
     top: 0px;
     background-image: url("https://cdn4.vectorstock.com/i/thumb-large/87/73/white-and-gray-marble-texture-background-vector-21708773.jpg");
     background-size: 50px 50px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .grid-item2{
@@ -37,6 +41,8 @@
     padding: 10px;
     left: 700px;
     top: 5px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .grid-item3{
@@ -52,6 +58,8 @@
     padding: 10px;
     left: 1000px;
     top: 5px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .grid-item4{
@@ -67,6 +75,8 @@
     padding: 10px;
     left: 1300px;
     top: 5px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .grid-item2:hover{
@@ -265,5 +275,12 @@
     background:linear-gradient(90deg,transparent,#3399ff);
     animation: animate4 1s linear infinite;
     animation-delay:0.75s;
+}
+
+.resume{
+    width: 1000px;
+    position: relative;
+    top: 97px;
+    left: 300px;
 }
 
