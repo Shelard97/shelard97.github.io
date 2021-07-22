@@ -1,5 +1,8 @@
+.back{
+    background-color: rgba(196,236,236,255);
+}
 .res-back{
-    background: rgba(49, 46, 46, 0.876);
+    background: rgba(18, 52, 62, 255);
 }
 .navbar{
     display: grid;
@@ -298,7 +301,46 @@
 .resume{
     width: 1000px;
     position: relative;
-    top: 97px;
+    top: 90px;
     left: 300px;
 }
+
+.main-head1{
+    display: block;
+    font-size: 2.75em;
+    margin-block-start: 200px;
+    margin-block-end: fit-content;
+    margin-inline-start: 425px;
+    margin-inline-end: fit-content;
+    font-weight: bold;
+    color: rgba(18, 52, 62, 255);
+}
+
+.main-para1{    
+    display: block;
+    font-size: 1.10em;
+    margin-block-start: 50px;
+    margin-block-end: fit-content;
+    margin-inline-start: 425px;
+    margin-inline-end: 400px;
+    font-weight: bold;
+    color: rgba(18, 52, 62, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.75em;
+}
+
+.main-para2{    
+    display: block;
+    font-size: 1.10em;
+    margin-block-start: 25px;
+    margin-block-end: fit-content;
+    margin-inline-start: 425px;
+    margin-inline-end: 400px;
+    font-weight: bold;
+    color: rgba(18, 52, 62, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.75em;
+}
+
+
 
